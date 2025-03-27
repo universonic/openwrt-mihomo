@@ -175,9 +175,9 @@ start_service() {
 		fi
 		cp -f "$subscription_file" "$RUN_PROFILE_PATH"
 	else
-		log "Profile" "No profile/subscription selected."
-		log "App" "Exit."
-		return
+		log "Profile" "Ignored."
+		log "App" "Proceed without profile..."
+		echo > "$RUN_PROFILE_PATH"
 	fi
 	# mixin
 	if [ "$mixin" == 0 ]; then
