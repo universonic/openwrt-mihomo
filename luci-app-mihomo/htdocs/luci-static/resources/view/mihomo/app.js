@@ -36,7 +36,7 @@ return view.extend({
 
         let m, s, o;
 
-        m = new form.Map('mihomo', _('MihomoTProxy'), `${_('Transparent Proxy with Mihomo on OpenWrt.')} <a href="https://github.com/morytyann/OpenWrt-mihomo/wiki" target="_blank">${_('How To Use')}</a>`);
+        m = new form.Map('mihomo', _('Mihomo'), `${_('Mihomo Proxy: A lightweight, high-performance proxy solution offering secure and customizable network traffic management for OpenWrt.')} <a href="https://wiki.metacubex.one/" target="_blank">${_('How To Use')}</a>`);
 
         s = m.section(form.NamedSection, 'status', 'status', _('Status'));
 

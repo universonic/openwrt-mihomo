@@ -406,7 +406,7 @@ msgstr "为内存受限设备优化的加载器"
 
 #: applications/luci-app-mihomo/htdocs/luci-static/resources/view/mihomo/app.js:39
 #: applications/luci-app-mihomo/root/usr/share/luci/menu.d/luci-app-mihomo.json:3
-msgid "MihomoTProxy"
+msgid "Mihomo"
 msgstr ""
 
 #: applications/luci-app-mihomo/htdocs/luci-static/resources/view/mihomo/mixin.js:102
@@ -677,8 +677,8 @@ msgid "Transparent Proxy"
 msgstr "透明代理"
 
 #: applications/luci-app-mihomo/htdocs/luci-static/resources/view/mihomo/app.js:39
-msgid "Transparent Proxy with Mihomo on OpenWrt."
-msgstr "在 OpenWrt 上使用 Mihomo 进行透明代理。"
+msgid "Mihomo Proxy: A lightweight, high-performance proxy solution offering secure and customizable network traffic management for OpenWrt."
+msgstr "Mihomo 代理：一款 OpenWrt 轻量级高性能代理解决方案，提供安全可定制的网络流量管理。"
 
 #: applications/luci-app-mihomo/htdocs/luci-static/resources/view/mihomo/mixin.js:254
 msgid "Type"
