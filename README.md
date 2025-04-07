@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/morytyann/OpenWrt-mihomo?style=for-the-badge&logo=github) ![GitHub Tag](https://img.shields.io/github/v/release/morytyann/OpenWrt-mihomo?style=for-the-badge&logo=github) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/morytyann/OpenWrt-mihomo/total?style=for-the-badge&logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/morytyann/OpenWrt-mihomo?style=for-the-badge&logo=github) [![Telegram](https://img.shields.io/badge/Contact-Telegram-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/mihomotproxy)
+![GitHub License](https://img.shields.io/github/license/universonic/openwrt-mihomo?style=for-the-badge&logo=github) ![GitHub Tag](https://img.shields.io/github/v/release/universonic/openwrt-mihomo?style=for-the-badge&logo=github) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/universonic/openwrt-mihomo/total?style=for-the-badge&logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/universonic/openwrt-mihomo?style=for-the-badge&logo=github) [![Telegram](https://img.shields.io/badge/Contact-Telegram-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/mihomotproxy)
 
 # MihomoTProxy
 
@@ -26,7 +26,7 @@ Transparent Proxy with Mihomo on OpenWrt.
 
 ```shell
 # only needs to be run once
-curl -s -L https://github.com/morytyann/OpenWrt-mihomo/raw/refs/heads/main/feed.sh | ash
+curl -s -L https://github.com/universonic/openwrt-mihomo/raw/refs/heads/main/feed.sh | ash
 ```
 
 2. Install
@@ -46,18 +46,18 @@ apk add --allow-untrusted luci-i18n-mihomo-zh-cn
 ### B. Install From Release
 
 ```shell
-curl -s -L https://github.com/morytyann/OpenWrt-mihomo/raw/refs/heads/main/install.sh | ash
+curl -s -L https://github.com/universonic/openwrt-mihomo/raw/refs/heads/main/install.sh | ash
 ```
 
 ## Uninstall & Reset
 
 ```shell
-curl -s -L https://github.com/morytyann/OpenWrt-mihomo/raw/refs/heads/main/uninstall.sh | ash
+curl -s -L https://github.com/universonic/openwrt-mihomo/raw/refs/heads/main/uninstall.sh | ash
 ```
 
 ## How To Use
 
-See [Wiki](https://github.com/morytyann/OpenWrt-mihomo/wiki)
+See [Wiki](https://github.com/universonic/openwrt-mihomo/wiki)
 
 ## How does it work
 
@@ -74,7 +74,7 @@ Note that the steps above may change base on config.
 
 ```shell
 # add feed
-echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
+echo "src-git mihomo https://github.com/universonic/openwrt-mihomo.git;main" >> "feeds.conf.default"
 # update & install feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
@@ -97,7 +97,7 @@ The ipk/apk file will be found under `bin/packages/your_architecture/mihomo`.
 
 ## Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=morytyann/OpenWrt-mihomo)](https://github.com/morytyann/OpenWrt-mihomo/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=universonic/openwrt-mihomo)](https://github.com/universonic/openwrt-mihomo/graphs/contributors)
 
 ## Special Thanks
 
